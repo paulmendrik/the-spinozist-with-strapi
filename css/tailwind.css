@@ -1,0 +1,94 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://use.typekit.net/fsp3bbz.css');
+
+.remark-code-title {
+  @apply px-5 py-3 font-mono text-sm font-bold text-gray-200 bg-gray-700 rounded-t;
+}
+
+.remark-code-title + pre {
+  @apply mt-0 rounded-t-none;
+}
+
+.task-list-item:before {
+  @apply hidden;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.logo {
+  font-family: trajan-pro-3,serif;
+}
+
+.title-head {
+  padding-bottom: 0rem;
+  border-bottom: 1px solid ;
+  border-color:  rgba(229, 231, 235, var(--tw-text-opacity));
+}
+
+.post-meta {
+  font-size: 0.9rem;
+  letter-spacing: 0.07rem;
+  line-height: 1.5;;
+}
+
+.post-title {
+  margin-top: 0.5rem;
+  margin-bottom:  1.66rem ;
+  font-family: pt-serif, serif;
+  line-height: 1.2;
+  font-size: 2.66rem;
+}
+
+h2.post-title {
+  margin-top: 0.5rem;
+  margin-bottom: 0;
+  font-family: pt-serif, serif;
+  line-height: 1.2;
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+blockquote {
+  font-family: pt-serif, serif;
+  line-height: 1.5;
+  font-size: 1.25rem;
+}
+
+cite {
+  font-family: pt-serif, serif;
+  line-height: 1.5;
+  font-weight: 600;
+  font-size: 1.25rem;
+}
+
+button:focus {
+  outline: none;
+}
+
+.prose ul > li {
+  padding: 0;
+  padding-left: 0;
+  margin: 0;
+}
+
+.prose ul > li strong{
+  font-family: pt-serif, serif;
+  line-height: 2.5;
+  font-style: italic;
+}
+
+.prose ul > li::before {
+  position: inherit;
+  border: none;
+  border-radius: 0;
+  left: 0;
+  width: 0;
+  height: 0;
+  top: 0;
+}
+  
+
