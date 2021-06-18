@@ -1,1 +1,1 @@
-**The Spinozist Blog with Strapi CMS
+The Spinozist Blog with Strapi CMS
